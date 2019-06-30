@@ -30,5 +30,4 @@ describe('Header Component', () => {
 	 const navList = findByTestAttr(component, 'navList');
 	 expect(navList.length).toBe(1);
   });
-
 });
